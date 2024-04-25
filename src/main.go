@@ -29,7 +29,7 @@ func openFile() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	b1 := make([]byte, 60)
+	b1 := make([]byte, 200)
 	n1, err := file.Read(b1)
 	if err != nil {
 		fmt.Println("Couldnt read bytes.", err)
